@@ -1,0 +1,32 @@
+{
+  "bf16": true,
+  "cpu_interop_threads": 1,
+  "cpu_threads": 8,
+  "device": "cuda:0",
+  "encoding_batch_size": 2048,
+  "evaluation_identity_count": 5000,
+  "evaluation_identity_subset_seed": 20260806,
+  "evaluation_split": "test",
+  "format_version": 1,
+  "gradient_clip": 10.0,
+  "learning_rate": 0.001,
+  "log_every": 100,
+  "membership_batch_size_per_task": 128,
+  "membership_test_samples_per_task": 1024,
+  "membership_test_seed": 260104,
+  "membership_train_samples_per_task": 512,
+  "membership_train_seed": 260102,
+  "membership_validation_samples_per_task": 512,
+  "membership_validation_seed": 260103,
+  "minimum_learning_rate": 1e-05,
+  "probe_hidden_dims": [
+    16
+  ],
+  "probe_steps": 1000,
+  "standardization_samples": 100000,
+  "standardization_seed": 260105,
+  "target_identity_seed": 260101,
+  "targets_per_class": 5,
+  "warmup_steps": 50,
+  "weight_decay": 0.0001
+}
