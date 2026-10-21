@@ -1,6 +1,6 @@
 # Predictive Closure
 
-This repository contains the code for the paper *Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection*.
+This repository contains the code for the paper [*Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection*](https://arxiv.org/pdf/2610.27364).
 
 The results in this repository show that what a JEPA keeps in its representation depends on how features relate to each other, not only on how predictable each one is.
 A feature whose next value is random can still be represented when its current value helps predict other features, and changing how one feature relates to another can change how well other features are represented.
